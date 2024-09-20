@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <div class="background-image"></div>
+    <!-- <div class="background-image"></div> -->
     <!-- 背景音乐 -->
     <audio autoplay loop>
       <source src="@/assets/background-music.mp3" type="audio/mpeg" />
@@ -29,6 +29,11 @@ export default {
 </script>
 
 <style scoped>
+.app-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
 /* 导航栏样式 */
 .navbar {
   display: flex;
