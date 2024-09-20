@@ -41,7 +41,7 @@ export default {
 }
 
 .background-image {
-    background-image: url('@/assets/page-background.jpg');
+    background-image: url('@/assets/background-image.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;

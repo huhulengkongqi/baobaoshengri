@@ -8,12 +8,11 @@
 
     <!-- 导航栏 -->
     <nav class="navbar">
-      <div class="navbar-title">给宝宝的21岁生日礼物！！！</div> <!-- 添加标题 -->
       <div class="nav-items"> <!-- 创建一个新的容器用于导航项 -->
         <router-link to="/" class="nav-item">主页</router-link>
-        <router-link to="/page1" class="nav-item">我们的回忆</router-link>
-        <router-link to="/page2" class="nav-item">某可爱漂亮的宝宝！</router-link>
-        <router-link to="/page3" class="nav-item">我想对宝宝说</router-link>
+        <router-link to="/page1" class="nav-item">回忆</router-link>
+        <router-link to="/page2" class="nav-item">关于宝宝</router-link>
+        <router-link to="/page3" class="nav-item">信</router-link>
       </div>
     </nav>
 
