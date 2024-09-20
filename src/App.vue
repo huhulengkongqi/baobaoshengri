@@ -1,5 +1,6 @@
 <template>
   <div class="app-container">
+    <div class="background-image"></div>
     <!-- 背景音乐 -->
     <audio autoplay loop>
       <source src="@/assets/background-music.mp3" type="audio/mpeg" />
@@ -41,6 +42,20 @@ export default {
   z-index: 10;
   background-color: rgba(255, 249, 249, 0);
   /* 修改背景颜色为半透明 */
+}
+
+.background-image {
+  background-image: url('@/assets/background-image.jpg');
+  background-size: auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .navbar-title {
