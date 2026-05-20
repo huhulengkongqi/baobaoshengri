@@ -14,6 +14,7 @@
         <router-link to="/page1" class="nav-item">回忆</router-link>
         <router-link to="/page2" class="nav-item">关于宝宝</router-link>
         <router-link to="/page3" class="nav-item">信</router-link>
+        <router-link to="/page4" class="nav-item">520解密</router-link>
       </div>
     </nav>
 
